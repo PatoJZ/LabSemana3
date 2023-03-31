@@ -1,0 +1,15 @@
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\bin\Debug\net6.0\labsemana3_ejercicio4.exe
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\bin\Debug\net6.0\labsemana3_ejercicio4.deps.json
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\bin\Debug\net6.0\labsemana3_ejercicio4.runtimeconfig.json
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\bin\Debug\net6.0\labsemana3_ejercicio4.dll
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\bin\Debug\net6.0\labsemana3_ejercicio4.pdb
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\obj\Debug\net6.0\labsemana3_ejercicio4.csproj.AssemblyReference.cache
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\obj\Debug\net6.0\labsemana3_ejercicio4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\obj\Debug\net6.0\labsemana3_ejercicio4.AssemblyInfoInputs.cache
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\obj\Debug\net6.0\labsemana3_ejercicio4.AssemblyInfo.cs
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\obj\Debug\net6.0\labsemana3_ejercicio4.csproj.CoreCompileInputs.cache
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\obj\Debug\net6.0\labsemana3_ejercicio4.dll
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\obj\Debug\net6.0\refint\labsemana3_ejercicio4.dll
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\obj\Debug\net6.0\labsemana3_ejercicio4.pdb
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\obj\Debug\net6.0\labsemana3_ejercicio4.genruntimeconfig.cache
+C:\Users\Patricio\Documents\VSC\lab3\vsc\labsemana3_ejercicio4\obj\Debug\net6.0\ref\labsemana3_ejercicio4.dll
