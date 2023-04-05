@@ -1,38 +1,53 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <time.h>
 
+#define MAX_JUGADORES 100
 
- typedef struct { 
-        char Nombre[20];
-        int Nivel;
-        int Salud;
-        int Puntaje;
-    }personaje;
-void crearPersonaje(personaje *p){
-    printf("Ingrese el nombre: ");
-    personaje -> malloc(strlen(p->Nombre) + 1);
-    printf("Ingrese el nivel: ");
-    scanf("%d",&p->Nivel);
-    printf("Ingrese el salud: ");
-    scanf("%d",&p->Salud);
-    printf("Ingrese el puntaje: ");
-    scanf("%d",&p->Puntaje);
-}
-void mostrarPersonaje(personaje *p){
-    printf("Nombre: %s\n", p -> Nombre);
-    printf("Nivel: %d\n",p -> Nivel);
-    printf("Salud: %d\n",p -> Salud);
-    printf("Puntaje: %d\n",p ->Puntaje);
-}
-int main(){
-    personaje *p[3];
-    for (int i = 0; i < 2; i++){
-        crearPersonaje(&p[i])
+typedef struct {
+    char nombre[100];
+    int nivel;
+    int salud;
+    int puntaje;
+} Jugador;
+
+void ingresarDatos(Jugador *Jugadores, int n) {
+    for (int i = 0; i < n; i++) {
+        printf("Ingrese los datos para el personaje %d:\n", i + 1);
+        printf("Nombre: ");
+        scanf("%s", Jugadores[i].nombre);
+
+        printf("Nivel: ");
+        scanf("%d", &Jugadores[i].nivel);
+
+        printf("Salud: ");
+        scanf("%d", &Jugadores[i].salud);
+
+        printf("Puntaje: ");
+        scanf("%d", &Jugadores[i].puntaje);
     }
-    
-    return 0;
+}
 
+void mostrarDatos(Jugador *Jugadores, int n) {
+    for (int i = 0; i < n; i++) {
+        printf("Datos del personaje %d:\n", i + 1);
+        printf("Nombre: %s\n", Jugadores[i].nombre);
+        printf("Nivel: %d\n", Jugadores[i].nivel);
+        printf("Salud: %d\n", Jugadores[i].salud);
+        printf("Puntaje: %d\n", Jugadores[i].puntaje);
+    }
+}
+int main() {
+    Jugador Jugadores[MAX_JUGADORES];
+    int n;
+
+    printf("Ingrese el número de Jugadores a ingresar: ");
+    scanf("%d", &n);
+
+    ingresarDatos(Jugadores, n);
+
+    mostrarDatos(Jugadores, n);
+
+    return 0;
 }
 
