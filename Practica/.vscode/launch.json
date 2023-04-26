@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Usuario/Documents/vsc/labsemana4",
-      "program": "c:/Users/Usuario/Documents/vsc/labsemana4/build/Debug/outDebug",
+      "cwd": "c:/Users/Usuario/Documents/vsc/Practica",
+      "program": "c:/Users/Usuario/Documents/vsc/Practica/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
